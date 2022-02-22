@@ -1,6 +1,6 @@
 # Your code here!
 
-def greet_programmer() 
+def greetProgrammer() 
   print("Hello, programmer!")
 end
 
@@ -9,7 +9,7 @@ def greet name
   print("Hello, #{name}!")
 end
 
-def greet_with_default (name = "programmer" ) 
+def greetWithDefaul (name = "programmer" ) 
   puts("Hello, #{name}!")
 
 end
@@ -20,6 +20,6 @@ end
 
 
 def halve number 
-    return nil unless ( number.class == Integer) 
+    return null if ( number.int? != false) 
   return number / 2;
 end
